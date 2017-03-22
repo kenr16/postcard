@@ -2,7 +2,22 @@ body {
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+#story {
+  /*visibility: hidden;*/
+  display: none;
+}
+
+#concern1 {
+  height: 300px;
+  border-color: #ffbf80;
+  border-width: 2px;
+}
+
+#person1 {
+  border-color: #ffbf80;
+  border-width: 2px;
 }
 
 .container {
@@ -19,7 +34,17 @@ body {
 
 .secondcol {
   margin-top: 18%;
-  margin-left: 7%;
+  margin-left: 6%;
   width:40%;
   padding-left: 0%;
+}
+
+h1 {
+font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+  font-size: 16px;
+  text-indent: 20px;
+  font-family: 'Shadows Into Light', cursive;
 }
